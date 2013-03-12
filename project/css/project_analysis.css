@@ -13,6 +13,7 @@ body {
 .content_main {
 	border: 1px solid #000;
 	padding: 0 1.0416667%; /* 10px/960px */
+	border-collapse: collapse;
 }
 
 p {
