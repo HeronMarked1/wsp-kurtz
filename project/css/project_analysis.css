@@ -1,3 +1,16 @@
 /* CSS for Project Analysis page for the Web Standards Project at Full Sail University
    Week 1, March 2013 */
 
+body {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#project_info ul {
+	list-style-type: none;
+}
+
+.content_main {
+	border: 1px solid #000;
+	padding: 0 1.0416667%; /* 10px/960px */
+}
