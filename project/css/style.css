@@ -74,19 +74,19 @@ table {
 
 @font-face {
 	font-family: "Lucida Sans";
-	src: url("../fonts/lucida-sans.otf")
+	src: url("../fonts/lucida-sans.otf");
 	src: url("../fonts/lucida-sans.eot"); /*--Internet Explorer--*/
 }
 
 @font-face {
 	font-family: Stencil;
-	src: url("../fonts/stencil-std.otf")
+	src: url("../fonts/stencil-std.otf");
 	src: url("../fonts/stencil-std.eot"); /*--Internet Explorer--*/
 }
 
 @font-face {
-	font-family: "Underwood";
-	src: url("../fonts/underwood.otf")
+	font-family: Underwood;
+	src: url("../fonts/underwood.otf");
 	src: url("../fonts/underwood.eot"); /*--Internet Explorer--*/
 }
 
@@ -108,6 +108,7 @@ header {
 	height: 150px;
 	background-image: url("../images/header_bg.jpg");
 	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
 header h1 {
@@ -139,6 +140,7 @@ nav {
 	background-repeat: no-repeat;
 	height: 50px;
 	width: 76.595745%; /* 720px/940px */
+	font: 1.125em Underwood, Calibri, sans-serif;
 }
 
 nav li {
@@ -147,6 +149,11 @@ nav li {
 	width: 25%;
 	text-align: center;
 	line-height: 50px;
+}
+
+nav a:link {
+	color: rgb(235, 235, 235);
+	text-decoration: none;
 }
 
 /*===================Footer Styles (Global)===========================*/
@@ -198,12 +205,6 @@ and (min-width : 1224px) {
 /* Large screens ----------- */
 @media only screen 
 and (min-width : 1824px) {
-}
-
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 
