@@ -97,11 +97,25 @@ table {
 body {
 	max-width: 960px;
 	background-color: rgb(85, 90, 85);
-	background-image: url("images/background.jpg");
+	background-image: url("../images/background.jpg");
 }
 
 /*===================Header Styles (Global)===========================*/
 
+header {
+	height: 150px;
+	background-image: url("../images/header_bg.jpg");
+	background-repeat: no-repeat;
+}
+
+#logo {
+	float: left;
+	height: 150px;
+	width: 22.916667%; /* 220px/960px */
+	background-image: url("../images/logo_bg.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
 
 /*===================Footer Styles (Global)===========================*/
 
