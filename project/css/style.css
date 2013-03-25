@@ -58,3 +58,72 @@ table {
 }
 
 /* -------- End of General Style Reset -------- */
+
+/* ================Color Info============================================
+
+	Dark Orange: rgb(164, 72, 43)
+	Gray: rgb(235, 235, 235)
+	Brown: rgb(83, 71, 65)
+	Pale Yellow: rgb(208, 200, 149)
+	Green-Gray: rgb(85, 90, 85)
+	Red: rgb(198, 47, 47)
+
+========================================================================*/
+
+/*====================== Font Links ====================================*/
+
+@font-face {
+	font-family: "Lucida Sans";
+	src: url("../fonts/lucida-sans.otf")
+	src: url("../fonts/lucida-sans.eot"); /*--Internet Explorer--*/
+}
+
+@font-face {
+	font-family: Stencil;
+	src: url("../fonts/stencil-std.otf")
+	src: url("../fonts/stencil-std.eot"); /*--Internet Explorer--*/
+}
+
+@font-face {
+	font-family: "Underwood";
+	src: url("../fonts/underwood.otf")
+	src: url("../fonts/underwood.eot"); /*--Internet Explorer--*/
+}
+
+               /*--------------------------------*/
+
+/*===================Main Global Styles===============================*/
+
+body {
+	max-width: 960px;
+	background-color: rgb(85, 90, 85);
+	background-image: url("images/background.jpg");
+}
+
+/*===================Header Styles (Global)===========================*/
+
+
+/*===================Footer Styles (Global)===========================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
