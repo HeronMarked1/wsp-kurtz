@@ -102,6 +102,12 @@ body {
 	padding: 10px;
 }
 
+.type-field {
+	border: 2px solid black;
+	border-radius: 6px;
+	box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.35), 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
 /*===================Header Styles (Global)===========================*/
 
 header {
@@ -129,12 +135,20 @@ header h1 {
 	float: left;
 	height: 100px;
 	margin-left: 37.234043%; /* 350px/940px */
+	color: rgb(235, 235, 235); /* Gray */
+	text-decoration: underline;
+	font: 0.813em "Lucida Sans", Calibri, sans-serif;
 }
 
 #form_header .type-field {
 	width: 220px; /* 220px/940px */
 	height: 20px;
 	margin-top: 5px;
+}
+
+#form_header p {
+	float: left;
+	text-align: right;
 }
 
 #form_header .submit-button {
