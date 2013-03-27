@@ -108,7 +108,7 @@ header {
 	height: 150px;
 	background-image: url("../images/header_bg.jpg");
 	background-repeat: no-repeat;
-	overflow: hidden;
+	width: 97.916667%; /* 940px/960px */
 }
 
 header h1 {
@@ -128,10 +128,22 @@ header h1 {
 #form_header {
 	float: left;
 	height: 100px;
+	margin-left: 37.234043%; /* 350px/940px */
+}
+
+#form_header .type-field {
+	width: 220px; /* 220px/940px */
+	height: 20px;
+	margin-top: 5px;
+}
+
+#form_header .submit-button {
+	background-image: url("../images/button_login.png");
 }
 
 #icon_cart {
 	height: 100px;
+	margin-left: 2.1276596%; /* 20px/94-px */
 }
 
 nav {
@@ -139,7 +151,7 @@ nav {
 	background-image: url("../images/nav-main_bg.jpg");
 	background-repeat: no-repeat;
 	height: 50px;
-	width: 76.595745%; /* 720px/940px */
+	width: 76.489362%; /* 719px/940px */
 	font: 1.125em Underwood, Calibri, sans-serif;
 }
 
