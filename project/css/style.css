@@ -30,7 +30,7 @@
 }
 
 @font-face {
-	font-family: "My Underwood";
+	font-family: Underwood;
 	src: url("../fonts/underwood.ttf"),
 	src: url("../fonts/underwood.otf"),
 	src: url("../fonts/underwood.eot"); /*--Internet Explorer--*/
@@ -60,6 +60,12 @@ body {
 	display: block;
 }
 
+.titled-section-header {
+	font: 1.5em Stencil, Calibri, sans-serif;
+	color: rgb(235, 235, 235);
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
 /*===================Header Styles (Global)===========================*/
 
 header {
@@ -71,7 +77,8 @@ header {
 
 header h1 {
 	float: left;
-	text-indent: -50000px;
+	text-indent: -50000px; /* included for search engines, but not intended for display */
+	width: 0.000005%; /* hack to force correct display in Safari */
 }
 
 #logo {
@@ -118,7 +125,7 @@ nav {
 	background-repeat: no-repeat;
 	height: 50px;
 	width: 76.489362%; /* 719px/940px */
-	font: 1.125em "My Underwood", Calibri, sans-serif;
+	font: 1.125em "Underwood", calibri, sans-serif;
 }
 
 nav li {
@@ -134,8 +141,76 @@ nav a:link {
 	text-decoration: none;
 }
 
+/* ==================Body Styles: Home Page===========================*/
+
+	/*--------Search Bar--------*/
+#search-bar {
+	float: left;
+	width: 39.583333%; /* 380px/960px */
+}
+
+#search-bar .type-field {
+	float: left;
+	width: 80.263158%; /* 305px/380px */
+	height: 25px;
+}
+
+	/*--------Featured Songs--------*/
+#feature_songs {
+	clear: left;
+	float: left;
+	background-image: url("../images/feature-songs_bg.jpg");
+	height: 300px;
+	width: 32.291667%; /* 310px/960px */
+}
+
+#feature_songs h1 {
+	background-image: url("../images/feature-songs_title_bg.jpg");
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 100%;
+	line-height: 50px;
+	padding-left: 5.483871%; /* 17px/310px */
+}
+
+	/*--------Featured Records--------*/
+#feature_records {
+	width: 67.708333%; /* 650px/960px */
+}
+
+#feature_records li {
+	float: left;
+	display: block;
+	width: 33%;
+}
+
+	/*--------Bands on Tour--------*/
+#tours {
+	clear: left;
+	float: left;
+}
+
+	/*--------News and Rumors--------*/
+#news {
+	float: left;
+}
+
+	/*--------Fat Poll--------*/
+
+
 /*===================Footer Styles (Global)===========================*/
 
+footer {
+	clear: left;
+}
+
+#address {
+	float: left;
+}
+
+footer li {
+	float: left;
+}
 
 /*======================Media Queries ================================*/
 
