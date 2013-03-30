@@ -176,12 +176,18 @@ nav a:link {
 	/*--------Featured Records--------*/
 #feature_records {
 	width: 67.708333%; /* 650px/960px */
+	height: 300px;
 }
 
 #feature_records li {
 	float: left;
-	display: block;
+	display: inline;
 	width: 33%;
+}
+
+	/*--------Bottom Wrapper--------*/
+#wrapper_bottom {
+	clear: left;
 }
 
 	/*--------Bands on Tour--------*/
