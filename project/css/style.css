@@ -552,6 +552,23 @@ nav a:visited {
 	padding-top: 35px;
 }
 
+#form_signup form {
+	margin: 35px auto;
+}
+
+#form_signup .type-label {
+	font: 0.875em "Lucida Sans", Calibri, sans-serif;
+	color: rgb(208, 200, 149); /* Pale Yellow */
+	width: 13.020833%; /* 125px/960px */
+}
+
+#form_signup .type-field {
+	width: 22.916667%; /* 220px/960px */
+	height: 25px;
+	margin-top: 5px;
+	vertical-align: middle;
+}
+
 /*===================Footer Styles (Global)===========================*/
 
 footer {
