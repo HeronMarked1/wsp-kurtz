@@ -385,6 +385,35 @@ nav a:visited {
 	padding-left: 2.6153846%; /* 17px/650px */
 }
 
+#news a:link {
+	color: rgb(164, 72, 43); /* Dark Orange */
+}
+
+#news a:visited {
+	color: rgb(164, 72, 43); /* Dark Orange */
+}
+
+#news1, #news2, #news3 {
+	height: 70px;
+	padding-left: 3.3333333%; /* 10px/300px */
+}
+
+#news1 {
+	margin-top: 25px;
+}
+
+.date {
+	font: 0.813em "Lucida Sans", Ariel, sans-serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.news {
+	font: 0.938em "Lucida Sans", Ariel, sans-serif;
+	font-weight: bold;
+	text-decoration: underline;
+	color: rgb(164, 72, 43); /* Dark Orange */
+}
 
 	/*--------Fat Poll--------*/
 #poll {
