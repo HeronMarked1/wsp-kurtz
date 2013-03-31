@@ -514,6 +514,31 @@ nav a:visited {
 	font: 1.0em "Lucida Sans", Calibri, sans-serif;
 }
 
+/*===================FAQ Page Styles==================================*/
+
+#faq {
+	clear: left;
+	color: rgb(208, 200, 149); /* Pale Yellow */
+	font: 0.875em "Lucida Sans", Ariel, sans-serif;
+}
+
+#faq h1 {
+	font: 1.50em "Lucida Sans", Calibri, sans-serif;
+	padding-top: 35px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+
+.question {
+	padding-left: 8.3333333%; /* 80px/960px */
+	margin-bottom: 23px;
+}
+
+.answer {
+	margin-bottom: 23px;
+	padding-left: 14.583333%; /* 140px/960px */
+}
+
 /*===================Footer Styles (Global)===========================*/
 
 footer {
