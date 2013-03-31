@@ -13,11 +13,11 @@
   				<form method="get" action="fan.html">
   					<div>
   						<label class="type-label" for="username">Username</label>
-  						<input class="type-field" type="text" name="username" id="username"/> 
+  						<input class="type-field" type="text" name="username" id="username" value="please type your username" onfocus="this.value='';"/> 
   					</div>
   					<div>
   						<label class="type-label" for="password">Password</label>
-  						<input class="type-field" type="password" name="password" id="password"/> 
+  						<input class="type-field" type="password" name="password" id="password" value="password" onfocus="this.value='';"/> 
   					</div>
   					<p><a href="signup.html">Create Account</a></p>
   					<div id="button_login">
@@ -38,7 +38,7 @@
   		<section id="search-bar">
   			<form>
   				<div>
-					<input class="type-field" type="text" name="search" id="search" value="Find great stuff!"/>
+					<input class="type-field" type="text" name="search" id="search" value="Find great stuff!" onfocus="this.value='';"/>
   				</div>
   				<input class="submit-button" type="submit" value="Search"/>
   			</form>

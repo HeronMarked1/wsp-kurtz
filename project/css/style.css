@@ -201,7 +201,13 @@ nav a:visited {
 #search-bar {
 	float: left;
 	width: 39.583333%; /* 380px/960px */
+	height: 80px;
 	margin-top: 17px;
+}
+
+#search-bar form {
+	height: 25px;
+	vertical-align: bottom;
 }
 
 #search-bar .type-field {
