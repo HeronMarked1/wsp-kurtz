@@ -268,6 +268,11 @@ nav a:visited {
 	padding-left: 5.483871%; /* 17px/310px */
 }
 
+#player-controls li {
+	display: inline;
+	float: left;
+}
+
 	/*--------Featured Records--------*/
 #feature_records {
 	float: left;
@@ -319,6 +324,7 @@ nav a:visited {
 	height: 300px;
 	margin-left: 1.0416667%; /* 10px/960px */ 
 	margin-top: 20px;
+	box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 #tours .titled-section-header {
@@ -330,13 +336,13 @@ nav a:visited {
 	/*--------News and Rumors--------*/
 #news {
 	float: left;
-	background-image: url("../images/bg_news_featured-songs.jpg");
-	background-repeat: no-repeat;
+	background-image: url("../images/feature-songs_bg.jpg");
 	background-position: left bottom;
 	width: 31.25%; /* 300px/960px */
 	height: 300px;
 	margin-left: 1.0416667%; /* 10px/960px */ 
 	margin-top: 20px;
+	box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 #news .titled-section-header {
@@ -356,6 +362,7 @@ nav a:visited {
 	height: 300px;
 	margin-left: 1.0416667%; /* 10px/960px */ 
 	margin-top: 20px;
+	box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 #poll .titled-section-header {
