@@ -708,10 +708,14 @@ nav a:visited {
 #store-nav {
 	clear: left;
 	text-align: right;
+	padding-top: 35px;
+	font: 1.5em "Lucida Sans", Ariel, sans-serif;
+	text-shadow: 2px 2px 1px (0, 0, 0, 0.5);
 }
 
 #store-nav a:link {
 	color: rgb(208, 200, 149); /* Pale Yellow */
+	text-decoration: none;
 }
 
 #store-nav a:visited {
