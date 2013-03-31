@@ -334,15 +334,42 @@ nav a:visited {
 
 .wrapper_featured-record {
 	float: left;
-	padding: 20px;
 	text-align: center;
 	overflow: hidden;
+}
+
+#feature_records ul {
+	padding-left: 10px;
 }
 
 #feature_records li {
 	display: inline;
 	float: left;
 	width: 180px;
+	margin: 20px 10px;
+}
+
+.purchase-button {
+	background-image: url("../images/button_details.png");
+	height: 30px;
+	width: 160px;
+	line-height: 30px;
+	font: 1.250em "Lucida Sans", Calibri, sans-serif;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+	letter-spacing: -1px;
+}
+
+.purchase-button a {
+	display: block;
+}
+
+.purchase-button a:link {
+	color: rgb(208, 200, 149); /* Pale Yellow */
+	text-decoration: none;
+}
+
+.purchase-button a:hover {
+	color: rgb(83, 71, 65); /* Brown */
 }
 
 	/*--------Bottom Wrapper--------*/
