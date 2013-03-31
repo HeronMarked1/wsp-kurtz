@@ -62,7 +62,7 @@ body {
 	line-height: 25px;
 	text-align: right;
 	padding-right: 5px;
-	padding-top: 10px;
+	padding-top: 7px;
 }
 
 .type-field {
@@ -544,6 +544,7 @@ nav a:visited {
 
 #form_signup {
 	clear: left;
+	overflow: hidden;
 }
 
 #form_signup h1 {
@@ -555,26 +556,74 @@ nav a:visited {
 
 #form_signup form {
 	margin: 35px auto;
-	width: 36.458333%; /* 350px/960px */
+	padding-left: 26.041667%; /* 250px/960px */
 }
 
 #form_signup .type-label {
 	font: 0.875em "Lucida Sans", Calibri, sans-serif;
 	color: rgb(208, 200, 149); /* Pale Yellow */
-	width: 35.714286%; /* 125px/350px */
+	width: 125px; /* 125px/960px */
 }
 
 #form_signup .type-field {
 	display: block;
-	width: 62.857143%; /* 220px/350px */
+	width: 220px; /* 220px/350px */
 	height: 25px;
 	margin-top: 5px;
-	vertical-align: middle;
 }
 
 #form_signup div #dob1, #form_signup div #dob2, #form_signup div #dob3 {
-	width: 17.428571%; /* 61px/350px */
+	width: 61px; /* 61px/350px */
+	float: left;
 }
+
+#form_signup div {
+	clear: both;
+}
+
+.radio-label {
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	padding-left: 5px;
+	font: 0.875em "Lucida Sans", Calibri, sans-serif;
+	color: rgb(208, 200, 149); /* Pale Yellow */
+	width: 220px;; /* 220px/350px */
+	margin-top: 5px;
+}
+
+#form_signup div .radio {
+	float: left;
+	margin-left: 130px;
+	margin-top: 5px;
+}
+
+.check-label {
+	display: block;
+	height: 25px;
+	float: left;
+	line-height: 25px;
+	padding-left: 5px;
+	font: 0.875em "Lucida Sans", Calibri, sans-serif;
+	color: rgb(208, 200, 149); /* Pale Yellow */
+	width: 220px;; /* 220px/350px */
+	margin-top: 5px;
+}
+
+#form_signup div .checkbox {
+	float: left;
+	margin-left: 130px;
+	margin-top: 5px;
+}
+
+#form_signup .submit-button {
+	margin-left: 130px;
+	width: 180px;
+	height: 30px;
+	font: 1.125em "Lucida Sans", Calibri, sans-serif;
+	background: transparent url("../images/button_submit-signup.png");
+}
+
 
 /*===================Footer Styles (Global)===========================*/
 
