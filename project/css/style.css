@@ -641,7 +641,15 @@ nav a:visited {
 	height: 620px;
 	background-image: url("../images/sidebar_bg.jpg");
 	margin-top: 35px;
-	overflow: hidden
+	overflow: hidden;
+	font: 1.250em "Lucida Sans", Ariel, sans-serif;
+	color: rgb(235, 235, 235);
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#sidebar-top {
+	padding-top: 40px;
+	padding-left: 20px;
 }
 
 #callout {
@@ -649,6 +657,33 @@ nav a:visited {
 	height: 195px;
 	text-align: center;
 	background-position: center;
+	font: 1.5em "Lucida Sans", Calibri, sans-serif;
+	margin-top: 80px;
+	line-height: 30px;
+	letter-spacing: -1px;
+}
+
+#callout span {
+	display: block;
+	padding-top: 5px;
+}
+
+#callout a:link {
+	color: rgb(208, 200, 149); /* Pale Yellow */
+}
+
+#callout a:hover {
+	color: rgb(83, 71, 65); /* Brown */
+}
+
+#callout a:visited {
+	color: rgb(208, 200, 149); /* Pale Yellow */
+}
+
+#bottom-note {
+	margin-top: 220px;
+	margin-left: 10px;
+	font-size: 0.750em;
 }
 
 #store {
