@@ -62,6 +62,7 @@ body {
 	line-height: 25px;
 	text-align: right;
 	padding-right: 5px;
+	padding-top: 10px;
 }
 
 .type-field {
@@ -554,23 +555,25 @@ nav a:visited {
 
 #form_signup form {
 	margin: 35px auto;
+	width: 36.458333%; /* 350px/960px */
 }
 
 #form_signup .type-label {
 	font: 0.875em "Lucida Sans", Calibri, sans-serif;
 	color: rgb(208, 200, 149); /* Pale Yellow */
-	width: 13.020833%; /* 125px/960px */
+	width: 35.714286%; /* 125px/350px */
 }
 
 #form_signup .type-field {
-	width: 22.916667%; /* 220px/960px */
+	display: block;
+	width: 62.857143%; /* 220px/350px */
 	height: 25px;
 	margin-top: 5px;
 	vertical-align: middle;
 }
 
 #form_signup div #dob1, #form_signup div #dob2, #form_signup div #dob3 {
-	width: 6.3541667%; /* 61px/960px */
+	width: 17.428571%; /* 61px/350px */
 }
 
 /*===================Footer Styles (Global)===========================*/
