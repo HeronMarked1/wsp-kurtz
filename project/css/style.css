@@ -569,6 +569,10 @@ nav a:visited {
 	vertical-align: middle;
 }
 
+#form_signup div #dob1, #form_signup div #dob2, #form_signup div #dob3 {
+	width: 6.3541667%; /* 61px/960px */
+}
+
 /*===================Footer Styles (Global)===========================*/
 
 footer {
