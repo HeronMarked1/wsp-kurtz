@@ -76,6 +76,8 @@ body {
 	font: 1.5em Stencil, Calibri, sans-serif;
 	color: rgb(235, 235, 235);
 	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+	height: 50px;
+	line-height: 50px;
 }
 
 .submit-button {
@@ -120,7 +122,6 @@ header h1 {
 	height: 100px;
 	margin-left: 37.234043%; /* 350px/940px */
 	color: rgb(235, 235, 235); /* Gray */
-	text-decoration: underline;
 	font: 0.813em "Lucida Sans", Calibri, sans-serif;
 	overflow: hidden;
 }
@@ -140,7 +141,7 @@ header h1 {
 	text-align: right;
 	margin-top: 5px;
 	margin-right: 5px;
-	padding-left: 145px;
+	padding-left: 135px;
 }
 
 #form_header p a:link {
@@ -157,12 +158,12 @@ header h1 {
 
 #form_header .submit-button {
 	background: transparent url("../images/button_login.png");
-	height: 20px;
 	margin-top: 5px;
+	height: 20px;
 }
 
 #icon_cart {
-	height: 100px;
+	height: 50px;
 	margin-left: 2.1276596%; /* 20px/94-px */
 	padding-top: 15px;
 }
@@ -227,19 +228,26 @@ nav a:visited {
 
 #search-bar .submit-button {
 	background: transparent url("../images/button_search.png");
-	height: 25px;
-	margin-top: 2px;
-	margin-left: 3px;
+	background-repeat: no-repeat;
+	width: 15.789474%; /* 60px/380px */
+	height: 30px;
+	margin-left: 2px;
 }
 
 #feature_band {
+	float: left;
+	margin-left: 10px;
 	margin-top: 17px;
+	width: 57.291667%; /* 550px/960px */
+	height: 76px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 	/*--------Top Wrapper--------*/
 #wrapper_top {
 	clear: left;
 	margin: 20px auto;
+	overflow: hidden;
 }
 
 	/*--------Featured Songs--------*/
@@ -249,34 +257,35 @@ nav a:visited {
 	background-image: url("../images/feature-songs_bg.jpg");
 	height: 300px;
 	width: 32.291667%; /* 310px/960px */
-	margin-right: 1.3541667%; /* 13px/960px */
+	box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+	overflow: hidden;
+	margin-top: 20px;
 }
 
 #feature_songs .titled-section-header {
 	background-image: url("../images/feature-songs_title_bg.jpg");
 	background-repeat: no-repeat;
-	height: 50px;
-	width: 100%;
-	line-height: 50px;
 	padding-left: 5.483871%; /* 17px/310px */
 }
 
 	/*--------Featured Records--------*/
 #feature_records {
-	width: 67.708333%; /* 650px/960px */
+	float: left;
+	width: 64.583333%; /* 620px/960px */
 	height: 300px;
 	background-image: url("../images/feature-records_bg.jpg");
 	overflow: hidden;
 	background-repeat: no-repeat;
 	background-position: left bottom;
+	margin-left: 10px;
+	margin-top: 20px;
 }
 
 #feature_records .titled-section-header {
 	background-image: url("../images/feature-records_title_bg.jpg");
-	height: 50px;
 	background-repeat: no-repeat;
-	line-height: 50px;
 	padding-left: 2.6153846%; /* 17px/650px */
+	box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 .wrapper_featured-record {
@@ -290,27 +299,70 @@ nav a:visited {
 	display: inline;
 	float: left;
 	width: 180px;
-	position: center;
 }
 
 	/*--------Bottom Wrapper--------*/
 #wrapper_bottom {
 	clear: left;
+	margin: 20px auto;
+	overflow: hidden;
 }
 
 	/*--------Bands on Tour--------*/
 #tours {
 	clear: left;
 	float: left;
+	background-image: url("../images/band_tour.png");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	width: 31.25%; /* 300px/960px */
+	height: 300px;
+	margin-left: 1.0416667%; /* 10px/960px */ 
+	margin-top: 20px;
+}
+
+#tours .titled-section-header {
+	background-image: url("../images/title_bottom_bg.jpg");
+	background-repeat: no-repeat;
+	padding-left: 2.6153846%; /* 17px/650px */
 }
 
 	/*--------News and Rumors--------*/
 #news {
 	float: left;
+	background-image: url("../images/bg_news_featured-songs.jpg");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	width: 31.25%; /* 300px/960px */
+	height: 300px;
+	margin-left: 1.0416667%; /* 10px/960px */ 
+	margin-top: 20px;
 }
 
-	/*--------Fat Poll--------*/
+#news .titled-section-header {
+	background-image: url("../images/title_bottom_bg.jpg");
+	background-repeat: no-repeat;
+	padding-left: 2.6153846%; /* 17px/650px */
+}
 
+
+	/*--------Fat Poll--------*/
+#poll {
+	float: left;
+	background-image: url("../images/cat-singing.jpg");
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	width: 31.25%; /* 300px/960px */
+	height: 300px;
+	margin-left: 1.0416667%; /* 10px/960px */ 
+	margin-top: 20px;
+}
+
+#poll .titled-section-header {
+	background-image: url("../images/title_bottom_bg.jpg");
+	background-repeat: no-repeat;
+	padding-left: 2.6153846%; /* 17px/650px */
+}
 
 /*===================Footer Styles (Global)===========================*/
 
