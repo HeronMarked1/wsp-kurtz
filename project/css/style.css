@@ -624,6 +624,16 @@ nav a:visited {
 	background: transparent url("../images/button_submit-signup.png");
 }
 
+/*=====================Store Page Styles==============================*/
+
+#sidebar {
+	
+	float: left;
+	width: 31.25%; /* 300px/960px */
+	height: 620px;
+	background-image: url("../images/sidebar_bg.jpg");
+}
+
 
 /*===================Footer Styles (Global)===========================*/
 
