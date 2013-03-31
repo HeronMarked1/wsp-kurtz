@@ -378,6 +378,10 @@ nav a:visited {
 	color: rgb(83, 71, 65); /* Brown */
 }
 
+.purchase-button a:visited {
+	color: rgb(208, 200, 149); /* Pale Yellow */
+}
+
 	/*--------Bottom Wrapper--------*/
 #wrapper_bottom {
 	clear: left;
@@ -418,6 +422,10 @@ nav a:visited {
 	color: rgb(235, 235, 235);
 	text-decoration: none;
 }
+
+#tours p a:visited {
+	color: rgb(235, 235, 235);
+}	
 
 	/*--------News and Rumors--------*/
 #news {
@@ -629,10 +637,11 @@ nav a:visited {
 #sidebar {
 	clear: left;
 	float: left;
-	width: 31.25%; /* 300px/960px */
+	width: 29.0625%; /* 279px/960px */
 	height: 620px;
 	background-image: url("../images/sidebar_bg.jpg");
 	margin-top: 35px;
+	overflow: hidden
 }
 
 #callout {
@@ -646,10 +655,24 @@ nav a:visited {
 	float: left;
 	background-image: url("../images/store_bg.jpg");
 	height: 780px;
-	width: 65.625%; /* 630px/960px */
+	width: 65.729167%; /* 631px/960px */
 	margin-top: 35px;
+	margin-left: 10px;
+	padding: 20px;
+	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
+.wrapper_store-record {
+	float: left;
+	text-align: center;
+	margin: 9px;
+}
+
+#store-nav {
+	clear: left;
+	text-align: right;
+}
 
 /*===================Footer Styles (Global)===========================*/
 
