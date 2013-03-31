@@ -30,7 +30,7 @@
 }
 
 @font-face {
-	font-family: Underwood;
+	font-family: "My Underwood";
 	src: url("../fonts/underwood.ttf"),
 	src: url("../fonts/underwood.otf"),
 	src: url("../fonts/underwood.eot"); /*--Internet Explorer--*/
@@ -169,7 +169,8 @@ nav {
 	background-repeat: no-repeat;
 	height: 50px;
 	width: 76.489362%; /* 719px/940px */
-	font: 1.125em "Underwood", calibri, sans-serif;
+	font: 1.125em "My Underwood", calibri, sans-serif;
+	text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 nav li {
