@@ -62,6 +62,12 @@ body {
 	border-radius: 6px;
 	box-shadow: inset -2px -2px 2px rgba(0, 0, 0, 0.35), 2px 2px 2px rgba(0, 0, 0, 0.5);
 	padding-left: 8px;
+	font-style: italic;
+}
+
+.type-field:focus {
+	font-style: normal;
+	border: 1px solid rgb(208, 200, 149); /* Pale Yellow */
 }
 
 .titled-section-header {
@@ -178,7 +184,7 @@ nav a:link {
 
 nav a:hover {
 	color: rgb(208, 200, 149); /* Pale Yellow */
-	background: rgba(235, 235, 235, 0.075);
+	background: rgba(235, 235, 235, 0.05);
 }
 
 nav a:active {
