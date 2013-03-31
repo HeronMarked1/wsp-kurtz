@@ -637,7 +637,7 @@ nav a:visited {
 #sidebar {
 	clear: left;
 	float: left;
-	width: 29.0625%; /* 279px/960px */
+	width: 31.25%; /* 300px/960px */
 	height: 620px;
 	background-image: url("../images/sidebar_bg.jpg");
 	margin-top: 35px;
@@ -689,8 +689,8 @@ nav a:visited {
 #store {
 	float: left;
 	background-image: url("../images/store_bg.jpg");
-	height: 780px;
-	width: 65.729167%; /* 631px/960px */
+	height: 740px; /* padding brings it up to 780px */
+	width: 61.458333%; /* 590px/960px (padding brings it up to 630px) */
 	margin-top: 35px;
 	margin-left: 10px;
 	padding: 20px;
@@ -701,12 +701,21 @@ nav a:visited {
 .wrapper_store-record {
 	float: left;
 	text-align: center;
-	margin: 9px;
+	margin: 8px;
+	width: 180px;
 }
 
 #store-nav {
 	clear: left;
 	text-align: right;
+}
+
+#store-nav a:link {
+	color: rgb(208, 200, 149); /* Pale Yellow */
+}
+
+#store-nav a:visited {
+	color: rgb(208, 200, 149); /* Pale Yellow */
 }
 
 /*===================Footer Styles (Global)===========================*/
