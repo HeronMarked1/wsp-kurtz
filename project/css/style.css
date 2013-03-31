@@ -207,7 +207,7 @@ nav a:visited {
 
 #search-bar form {
 	height: 25px;
-	vertical-align: bottom;
+	padding-top: 45px;
 }
 
 #search-bar .type-field {
