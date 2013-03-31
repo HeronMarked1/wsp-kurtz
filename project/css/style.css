@@ -163,6 +163,7 @@ header h1 {
 #icon_cart {
 	height: 100px;
 	margin-left: 2.1276596%; /* 20px/94-px */
+	padding-top: 15px;
 }
 
 nav {
