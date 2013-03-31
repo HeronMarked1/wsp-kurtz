@@ -20,12 +20,14 @@
 @font-face {
 	font-family: "Lucida Sans";
 	src: url("../fonts/lucida-sans.ttf");
+	src: url("../fonts/lucida-sans.otf");
 	src: url("../fonts/lucida-sans.eot"); /*--Internet Explorer--*/
 }
 
 @font-face {
 	font-family: Stencil;
 	src: url("../fonts/stencil-std.ttf");
+	src: url("../fonts/lucida-sans.otf");
 	src: url("../fonts/stencil-std.eot"); /*--Internet Explorer--*/
 }
 
