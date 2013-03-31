@@ -738,6 +738,7 @@ nav a:visited {
 	height: 300px;
 	background-image: url("../images/band-suggestions_bg.jpg");
 	margin-top: 30px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 #favorite-bands {
@@ -746,6 +747,7 @@ nav a:visited {
 	height: 300px;
 	background-image: url("../images/fav-bands_shows_bg.jpg");
 	margin-top: 30px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 #upcoming-shows {
@@ -755,6 +757,7 @@ nav a:visited {
 	background-image: url("../images/fav-bands_shows_bg.jpg");
 	margin-left: 20px;
 	margin-top: 30px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 /*===================Footer Styles (Global)===========================*/
