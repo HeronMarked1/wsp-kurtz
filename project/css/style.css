@@ -135,6 +135,10 @@ header h1 {
 	color: rgb(164, 72, 43); /* Dark Orange */
 }
 
+#form_header p a:visited {
+	color: rgb(235, 235, 235);
+}
+
 #form_header .submit-button {
 	background: transparent url("../images/button_login.png");
 	border: 0;
@@ -169,6 +173,20 @@ nav li {
 nav a:link {
 	color: rgb(235, 235, 235);
 	text-decoration: none;
+	display: block;
+}
+
+nav a:hover {
+	color: rgb(208, 200, 149); /* Pale Yellow */
+	background: rgba(235, 235, 235, 0.075);
+}
+
+nav a:active {
+	color: rgb(164, 72, 43); /* Dark Orange */
+}
+
+nav a:visited {
+	color: rgb(235, 235, 235);
 }
 
 /* ==================Body Styles: Home Page===========================*/
