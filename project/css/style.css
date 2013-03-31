@@ -33,8 +33,8 @@
 
 @font-face {
 	font-family: "My Underwood";
-	src: url("../fonts/underwood.ttf"),
-	src: url("../fonts/underwood.otf"),
+	src: url("../fonts/underwood.ttf");
+	src: url("../fonts/underwood.otf");
 	src: url("../fonts/underwood.eot"); /*--Internet Explorer--*/
 }
 
@@ -488,6 +488,10 @@ footer {
 	margin-left: 0.52083333%; /* 5px/960px */
 }
 
+#social_icons a:hover {
+	opacity: 0.7;
+}
+
 footer li {
 	float: left;
 	display: inline;
@@ -503,6 +507,10 @@ footer li {
 
 #nav_utility a:hover {
 	color: rgb(164, 72, 43); /* Dark Orange */
+}
+
+#nav_utility a:visited {
+	color: rgb(235, 235, 235);
 }
 
 #copyright {
