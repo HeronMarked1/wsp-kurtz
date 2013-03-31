@@ -539,6 +539,19 @@ nav a:visited {
 	padding-left: 14.583333%; /* 140px/960px */
 }
 
+/*====================Signup Page Styles==============================*/
+
+#form_signup {
+	clear: left;
+}
+
+#form_signup h1 {
+	font: 1.5em "Lucida Sans", Calibri, sans-serif;
+	color: rgb(208, 200, 149); /* Pale Yellow */
+	text-align: center;
+	padding-top: 35px;
+}
+
 /*===================Footer Styles (Global)===========================*/
 
 footer {
