@@ -46,6 +46,46 @@
   		<article id="feature_band">
   			<img src="images/feature_band.png" alt="Featured Band">
   		</article>
+  		<h1>Your Artist Connection</h1>
+  		<section id="statistics">
+  			<h1>Statistics: The Flatliners</h1>
+  			<ul>
+  				<li>Records Sold - 498</li>
+  				<li>Tickets Sold - 607</li>
+  				<li>Upcoming Shows Tickets Sold</li>
+  					<ul id="ticket-statistics">
+  						<li>- May 16th: 103/165</li>
+  						<li>- May 29th: 62/190</li>
+  						<li>- June 3rd: 23/150</li>
+  					</ul>
+  				<li>Clicks on fatwreck.com - 3, 142</li>
+  				<li>Band Website Conversions - 589</li>
+  				<li>Band Social Media Conversions - 310</li>
+  			</ul>
+  		</section>
+  		<section id="song-submit">
+  			<h1>Submit a Song:</h1>
+  			<form method="get" action="#">
+  				<div>
+  					<label class="type-label" for="song-title">Song Title</label>
+  					<input class="type-field" type="text" id="song-title" name="song-title" value="please type the title of your song" onfocus="this.value='';"/>
+  				</div>
+  				<div>
+  					<label class="type-label" for="file-select">File Location</label>
+  					<input class="type=field" type="file" id="file-select" name="file-select" value="please type the file location" onfocus="this.value='';"/>
+  				</div>
+  				<div>
+  					<input class="submit-button" type="submit" value="Submit Song"/>
+  				</div>
+  			</form>
+  		</section>
+  		<section id="upcoming-shows">
+  			<h1>Upcoming Shows</h1>
+  			<p class="upcoming-show"><a href="#">May 16th - Red Dragon Pub<a/></p>
+  			<p class="upcoming-show"><a href="#">May 29th - Fuel</a></p>
+  			<p class="upcoming-show"><a href="#">June 3rd - The Flying Saucer</a></p>
+  			<p id="more"><a href="#">Edit</a></p>
+  		</section>
   	  	<footer>
   	  		<p id="address">Fat Wreck Chords | 2196 Palou Ave, San Francisco, CA 94124</p>
   	  		<ul id="social_icons">
