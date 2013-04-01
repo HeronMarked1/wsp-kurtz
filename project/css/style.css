@@ -791,6 +791,39 @@ nav a:visited {
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+#favorite-bands h1, #upcoming-shows h1 {
+	font: 1.5em "Stencil", Calibri, sans-serif;
+	color: rgb(208, 200, 149); /* Pale Yellow */
+	padding: 20px;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.favorite-band {
+	clear: left;
+	font: 1.125em "Lucida Sans", Ariel, sans-serif;
+	color: rgb(208, 200, 149); /* Pale Yellow */
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	text-decoration: underline;
+}
+
+.favorite-band h2 {
+	padding-top: 20px;
+	padding-left: 60px;
+}
+
+.favorite-band ul {
+	margin-left: 80px;
+}
+
+.favorite-band li {
+	float: left;
+	display: inline;
+}
+
+#add-remove {
+	clear: left;
+}
+
 #upcoming-shows {
 	float: left;
 	width: 31.25%; /* 300px/960px */
