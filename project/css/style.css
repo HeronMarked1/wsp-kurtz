@@ -987,10 +987,41 @@ nav a:visited {
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
+#song-submit form {
+	margin-top: 35px;
+}
+
+#song-submit div {
+	clear: both;
+	margin-top: 10px;
+	margin-left: 95px;
+}
+
+#song-submit .type-label {
+	width: 100px;
+	font: 0.938em "Lucida Sans", Ariel, sans-serif;
+	color: rgb(208, 200, 149); /* Pale Yellow */
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#song-submit .type-field {
+	width: 220px;
+	height: 25px;
+}
+
+#song-submit .submit-button {
+	margin-left: 225px;
+	background: transparent url("../images/button_submit-signup.png");
+	width: 180px;
+	height: 30px;
+	box-shadow: 0px 0px 0px;
+	font-size: 1.25em;
+}
+
 #view-submissions {
 	clear: left;
 	float: right;
-	padding-top: 40px;
+	padding-top: 65px;
 	padding-right: 20px;
 }
 
@@ -1038,7 +1069,7 @@ nav a:visited {
 
 #edit {
 	float: right;
-	padding-top: 10px;
+	padding-top: 85px;
 	padding-right: 10px;
 }
 
