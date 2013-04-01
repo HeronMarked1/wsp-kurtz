@@ -769,6 +769,17 @@ nav a:visited {
 
 #band-suggestions ul {
 	clear: both;
+	margin-left: 145px;
+	padding-top: 10px;
+}
+
+#band-suggestions li {
+	display: inline;
+	float: left;
+	margin-left: 35px;
+	box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+	width: 180px;
+	height: 180px;
 }
 
 #favorite-bands {
