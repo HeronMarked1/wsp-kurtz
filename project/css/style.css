@@ -813,15 +813,45 @@ nav a:visited {
 
 .favorite-band ul {
 	margin-left: 80px;
+	padding-top: 15px;
 }
 
 .favorite-band li {
 	float: left;
 	display: inline;
+	margin-right: 10px;
+}
+
+.favorite-band a:link {
+	color: rgb(208, 200, 149); /* Pale Yellow */
+}
+
+.favorite-band a:hover {
+	color: rgb(83, 71, 65); /* Brown */
+}
+
+.favorite-band a:visited {
+	color: rgb(208, 200, 149); /* Pale Yellow */
 }
 
 #add-remove {
 	clear: left;
+	float: right;
+	padding-top: 40px;
+	padding-right: 20px;
+}
+
+#add-remove a:link {
+	font: 0.875em "Lucida Sans", Ariel, sans-serif;
+	color: rgb(208, 200, 149); /* Pale Yellow */
+}
+
+#add-remove a:hover {
+	color: rgb(83, 71, 65); /* Brown */
+}
+
+#add-remove a:visited {
+	color: rgb(208, 200, 149); /* Pale Yellow */
 }
 
 #upcoming-shows {
@@ -842,6 +872,7 @@ footer {
 	color: rgb(235, 235, 235);
 	text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
 	overflow: hidden;
+	padding-top: 30px;
 }
 
 #address {
