@@ -864,6 +864,43 @@ nav a:visited {
 	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
+.upcoming-show {
+	font: 1.125em "Lucida Sans", Ariel, sans-serif;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+	padding-left: 30px;
+	line-height: 40px;
+}
+
+.upcoming-show a:link {
+	color: rgb(208, 200, 149); /* Pale Yellow */
+}
+
+.upcoming-show a:hover {
+	color: rgb(83, 71, 65); /* Brown */
+}
+
+.upcoming-show a:visited {
+	color: rgb(208, 200, 149); /* Pale Yellow */
+}
+
+#more {
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+#more a:link {
+	color: rgb(208, 200, 149); /* Pale Yellow */
+}
+
+#more a:hover {
+	color: rgb(83, 71, 65); /* Brown */
+}
+
+#more a:visited {
+	color: rgb(208, 200, 149); /* Pale Yellow */
+}
+
 /*===================Footer Styles (Global)===========================*/
 
 footer {
